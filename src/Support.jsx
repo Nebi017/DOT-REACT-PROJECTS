@@ -8,11 +8,12 @@ function Support() {
   return (
     <>
         <div className='Content'>
-            Support Page
+           <p> Support Page</p> 
+            
+           <button onClick={()=>navigate('/')}>Go back</button>
+      
         </div>
-       <div className='btn'>
-     <button onClick={()=>navigate('/')}>Go back</button>
-      </div>
+       
     </>
   )
 }

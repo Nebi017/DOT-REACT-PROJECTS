@@ -8,11 +8,7 @@
    align-items: center;
    }
 
-section hr{
-    margin-left: 50px;
-    margin-right: 50px;
-    border: 1px solid rgba(0, 0, 0, 0.348);
-}
+
 p a{
     color: black;
 }

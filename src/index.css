@@ -1,11 +1,13 @@
-.Content{
+.Content {
+    height: 60vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
-    font-weight: 350 !important;
+    font-size: 60px;
+    font-weight: 200 !important;
     display: flex;
+    flex-direction: column;
    justify-content: center;
-   margin-top: 11%;
-}
+   align-items: center;
+   }
 button{
     width: 150px;
     height: 40px;
@@ -14,9 +16,4 @@ button{
     background-color: rgb(10, 168, 211);
     border-radius: 5px;
     border: none;
-}
-.btn{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
 }

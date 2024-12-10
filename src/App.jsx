@@ -4,6 +4,7 @@ import Enterprise from './Enterprise'
 import Features from './Features';
 import Support from './Support';
 import Header from './Header/Header';
+import Footer from './Footer/Footer';
 
 function App() {
   return(
@@ -17,6 +18,7 @@ function App() {
     <Route path='/support' element={<Support />}></Route>
 
    </Routes>
+   <Footer />
     </>
 
   );

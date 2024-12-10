@@ -6,11 +6,11 @@ function Enterprise() {
   return (
     <>
         <div className='Content'>
-            Enterprise Page  
+           <p> Enterprise Page</p> 
+            
+           <button onClick={()=>navigate('/')}>Go back</button>
+      
         </div>
-<div className='btn'>
-     <button onClick={()=>navigate('/')}>Go back</button>
-</div>
     </>
   )
 }

@@ -4,7 +4,9 @@ import './Footer.css'
 export const Footer =()=> {
   return (
     <>
+    <hr />
     <div className='footer'>
+    
       <div>
         <h3>Features</h3>
         <p><a href="#">cool stuff</a><br />

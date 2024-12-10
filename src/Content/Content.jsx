@@ -6,10 +6,10 @@ import './Content.css'
     return(
      <>
         <section>
-            <div className='feature'>
-                <p>Feature</p>
+            <div className='Content'>
+                <p>Home</p>
             </div>
-            <hr />
+            
         </section>
     </>
         )
